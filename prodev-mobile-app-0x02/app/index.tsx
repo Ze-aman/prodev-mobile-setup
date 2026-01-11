@@ -7,10 +7,7 @@ import {
   Dimensions,
   TouchableOpacity,
 } from "react-native";
-import {
-  SafeAreaView,
-  SafeAreaProvider,
-} from "react-native-safe-area-context";
+import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 
 export default function Index() {
   return (
@@ -33,14 +30,14 @@ export default function Index() {
                 Find your favorite place here
               </Text>
               <Text style={styles.textSmall}>
-                The best prices for over 2
+                The best prices for over 2{" "}
               </Text>
               <Text style={styles.textSmall}>
                 million properties worldwide
               </Text>
             </View>
 
-            {/* Buttons + Navigation Prompt */}
+            {/* Buttons & Navigation Prompt */}
             <View style={{ position: "absolute", bottom: 0, width: "100%" }}>
               <View style={styles.buttonGroup}>
                 <TouchableOpacity style={styles.button}>
